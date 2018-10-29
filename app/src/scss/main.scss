@@ -1,0 +1,44 @@
+
+$space-tiny: .3em;
+$space-small: 1em;
+$space-normal: 2em;
+$space-large: 4em;
+
+$primary-dark: #345789;
+
+$background-color: $primary-dark;
+$white: #ffffff;
+
+$default-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.mainContent {
+    padding: 3em;
+    margin: 3em;
+    height: 30em;
+    box-shadow: $default-shadow;
+}
+
+.characterTable {
+    .row {
+        height: 3em;
+        padding: $space-tiny;
+
+        &.headline {
+            color: $primary-dark;
+        }
+
+        .col {
+            padding: $space-tiny;
+        }
+
+        div {
+            i {
+            padding-right: $space-normal;
+            }
+        }
+    }
+}
