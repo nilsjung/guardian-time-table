@@ -23,6 +23,11 @@ body {
 }
 
 .characterTable {
+
+    .task-icon {
+        width: 1em;
+    }
+
     .row {
         height: 3em;
         padding: $space-tiny;
